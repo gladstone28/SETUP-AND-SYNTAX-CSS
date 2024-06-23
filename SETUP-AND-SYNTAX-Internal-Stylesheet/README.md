@@ -1,0 +1,39 @@
+Lesson link:
+
+https://www.codecademy.com/journeys/full-stack-engineer/paths/fscj-22-web-development-foundations/tracks/fscj-22-fundamentals-of-css/modules/wdcp-22-learn-css-selectors-and-visual-rules-0507dd23-134e-4011-af2c-a06b06ad53f2/lessons/learn-css-setup-and-syntax/exercises/internal-stylesheet
+
+### SETUP AND SYNTAX
+
+## Internal Stylesheet
+
+As previously stated, inline styles are not the best way to style HTML elements. If you wanted to style, for example, multiple <h1> elements, you would have to add inline styling to each element manually. In addition, you would also have to maintain the HTML code when additional <h1> elements are added.
+
+Fortunately, HTML allows you to write CSS code in its own dedicated section with a <style> element nested inside of the <head> element. The CSS code inside the <style> element is often referred to as an internal stylesheet.
+
+An internal stylesheet has certain benefits and use cases over inlines styles, but once again, it’s not best practice (we’ll get there, we promise). Understanding how to use internal stylesheets is nonetheless helpful knowledge to have.
+
+To create an internal stylesheet, a <style> element must be placed inside of the <head> element.
+
+```
+<head>
+  <style>
+
+
+  </style>
+</head>
+```
+After adding opening and closing <style> tags in the head section, you can begin writing CSS code.
+```
+<head>
+  <style>
+    p {
+      color: red;
+      font-size: 20px;
+    }
+  </style>
+</head>
+```
+
+The CSS code in the example above changes the color of all paragraph text to red and also changes the size of the text to 20 pixels. Note how the syntax of the CSS code matches (for the most part) the syntax you used for inline styling. The main difference is that you can specify which elements to apply the styling.
+
+
