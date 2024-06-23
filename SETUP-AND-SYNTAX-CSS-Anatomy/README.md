@@ -40,3 +40,7 @@ Study the diagrams to become familiar with the CSS syntax and the new terms that
 Click the “Next” button when you are ready to write some code!
 
 ![](./style-sheet-scan.png)
+
+> 
+
+![](./CSS_Anatomy-v2-nobgfill.svg)
