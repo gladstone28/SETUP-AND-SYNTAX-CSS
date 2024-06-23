@@ -36,4 +36,41 @@ After adding opening and closing <style> tags in the head section, you can begin
 
 The CSS code in the example above changes the color of all paragraph text to red and also changes the size of the text to 20 pixels. Note how the syntax of the CSS code matches (for the most part) the syntax you used for inline styling. The main difference is that you can specify which elements to apply the styling.
 
+### Instructions
+Checkpoint 1 Passed
+1. Let’s move the inline style that was added to the paragraph into an internal stylesheet.
 
+Start by adding an empty <style> element in the head of index.html.
+
+Place the empty <style> element below the <title> element in index.html. Be sure to include the opening and closing tags.
+
+Checkpoint 2 Passed
+2. Inside of the <style> element, add a CSS ruleset targeting the paragraph (the <p> element). You can leave the declaration block empty for now.
+
+An empty ruleset looks like this:
+```
+selector {
+
+}
+```
+The declaration block is the code that goes inside of (and includes) the curly braces.
+
+Checkpoint 3 Passed
+3. Next, place just the declaration from the inline style into the empty declaration block in the inline stylesheet.
+
+Remember that the declaration syntax is property: value;, and goes inside of the declaration block.
+
+selector {
+  declaration
+}
+
+Checkpoint 4 Passed
+4. Finally, delete the inline style from the <p> element.
+
+Notice how the styling works the same in the stylesheet as it did in the inline style!
+
+The inline style starts with the style attribute, and ends with the ' after the declaration.
+```
+style='color: green;'
+
+```
