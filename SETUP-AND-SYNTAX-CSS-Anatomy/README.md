@@ -38,3 +38,5 @@ Don’t worry about memorizing all of these—you will get acquainted with them 
 Study the diagrams to become familiar with the CSS syntax and the new terms that will be used throughout the course.
 
 Click the “Next” button when you are ready to write some code!
+
+![](./style-sheet-scan.png)
